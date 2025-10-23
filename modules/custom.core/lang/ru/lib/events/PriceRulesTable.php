@@ -1,0 +1,21 @@
+<?php
+$MESS['PRICE_RULES_ENTITY_ID_FIELD'] = "ID";
+$MESS['PRICE_RULES_ENTITY_UF_XML_ID_FIELD'] = "Внешний код";
+//$MESS['PRICE_RULES_ENTITY_UF_PREFIX_FIELD'] = "Префикс";
+$MESS['PRICE_RULES_ENTITY_UF_TYPE_OF_APPLY_FIELD'] = "Тип применения"; // legacy
+$MESS['PRICE_RULES_ENTITY_UF_TYPE_APPLY_ALL_ORDER_FIELD'] = "Тип применения: ко всему заказу";
+$MESS['PRICE_RULES_ENTITY_UF_TYPE_APPLY_MIN_FIELD'] = "Тип применения: Min";
+$MESS['PRICE_RULES_ENTITY_UF_TYPE_APPLY_MAX_FIELD'] = "Тип применения: Max";
+$MESS['PRICE_RULES_ENTITY_UF_NAME_FIELD'] = "Название";
+$MESS['PRICE_RULES_ENTITY_UF_DISCOUNT_TYPE_FIELD'] = "Тип скидки";
+$MESS['PRICE_RULES_ENTITY_UF_DISCOUNT_FIELD'] = "Размер скидки";
+$MESS['PRICE_RULES_ENTITY_UF_DATE_START_FIELD'] = "Дата начала активности";
+$MESS['PRICE_RULES_ENTITY_UF_DATE_END_FIELD'] = "Дата окончания активности";
+$MESS['PRICE_RULES_ENTITY_UF_EVENT_ID_FIELD'] = "ID события";
+$MESS['PRICE_RULES_ENTITY_UF_TICKETS_TYPE_FIELD'] = "Тип билетов";
+$MESS['PRICE_RULES_ENTITY_UF_FOR_ALL_TYPES_FIELD'] = "Для всех типов билетов";
+$MESS['PRICE_RULES_ENTITY_UF_MIN_COUNT_TICKETS_FIELD'] = "Минимальное количество билетов для скидки";
+$MESS['PRICE_RULES_ENTITY_UF_IS_SUM_FIELD'] = "Суммируется с другими скидками/промокодами";
+$MESS['PRICE_RULES_ENTITY_UF_TYPE_FIELD'] = "Тип правила (действует для ...)";
+$MESS['PROMO_CODES_ENTITY_UF_NUMBER_OF_USES_FIELD'] = "Кол-во использований";
+$MESS['PROMO_CODES_ENTITY_UF_MAX_NUMBER_OF_USES_FIELD'] = "Максимальное кол-во использований";
