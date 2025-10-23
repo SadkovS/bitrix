@@ -1,0 +1,52 @@
+<?php
+
+use Bitrix\Main\Loader;
+
+Loader::registerAutoLoadClasses(
+    'custom.core',
+    [
+        'Custom\\Core\\Sale'                                             => 'lib/Sale.php',
+        'Custom\\Core\\FieldEnumTable'                                   => 'lib/FieldEnumTable.php',
+        'Custom\\Core\\FieldTable'                                       => 'lib/FieldTable.php',
+        'Custom\\Core\\Users\\CompaniesTable'                            => 'lib/users/CompaniesTable.php',
+        'Custom\\Core\\Users\\UserProfilesTable'                         => 'lib/users/UserProfilesTable.php',
+        'Custom\\Core\\Events\\EventsTable'                              => 'lib/events/EventsTable.php',
+        'Custom\\Core\\Events\\PromoCodesTable'                          => 'lib/events/PromoCodesTable.php',
+        'Custom\\Core\\Events\\PriceRulesTable'                          => 'lib/events/PriceRulesTable.php',
+        'Custom\\Core\\Events\\PriceRulesUfEventIdTable'                 => 'lib/events/PriceRulesUfEventIdTable.php',
+        'Custom\\Core\\Events\\PriceRulesUfTicketsTypeTable'             => 'lib/events/PriceRulesUfTicketsTypeTable.php',
+        'Custom\\Core\\Events\\EventsStatusTable'                        => 'lib/events/EventsStatusTable.php',
+        'Custom\\Core\\Events\\EventsUfFilesTable'                       => 'lib/events/EventsUfFilesTable.php',
+        'Custom\\Core\\Events\\EventsCategoryTable'                      => 'lib/events/EventsCategoryTable.php',
+        'Custom\\Core\\Events\\EventsQuestionnaireTable'                 => 'lib/events/EventsQuestionnaireTable.php',
+        'Custom\\Core\\Events\\EventsQuestionnaireUfTicketTable'         => 'lib/events/EventsQuestionnaireUfTicketTable.php',
+        'Custom\\Core\\Events\\EventsStatusHistoryTable'                 => 'lib/events/EventsStatusHistoryTable.php',
+        'Custom\\Core\\Events\\EventsDateAndLocationTable'               => 'lib/events/EventsDateAndLocationTable.php',
+        'Custom\\Core\\Events\\EventsDateAndLocationUfDateTimeTable'     => 'lib/events/EventsDateAndLocationUfDateTimeTable.php',
+        'Custom\\Core\\Events\\DiscountApplyTable'                       => 'lib/events/DiscountApplyTable.php',
+        'Custom\\Core\\Tickets\\BarcodesTable'                           => 'lib/tickets/BarcodesTable.php',
+        'Custom\\Core\\Tickets\\TicketRefundRequestsTable'               => 'lib/tickets/TicketRefundRequestsTable.php',
+        'Custom\\Core\\Tickets\\TicketRefundRequestsUfBasketItemIdTable' => 'lib/tickets/TicketRefundRequestsUfBasketItemIdTable.php',
+        'Custom\\Core\\Tickets\\TicketRefundRequestsUfDocumentsTable'    => 'lib/tickets/TicketRefundRequestsUfDocumentsTable.php',
+        'Custom\\Core\\Tickets\\WidgetsTable'                            => 'lib/tickets/WidgetsTable.php',
+        'Custom\\Core\\Tickets\\TgGroupTable'                            => 'lib/tickets/TgGroupTable.php',
+        'Custom\\Core\\Users\\AdditionalAgreementsTable'                 => 'lib/users/AdditionalAgreementsTable.php',
+        'Custom\\Core\\Users\\ActsTable'                                 => 'lib/users/ActsTable.php',
+        'Custom\\Core\\Users\\BalanceHistoryTable'                       => 'lib/users/BalanceHistoryTable.php',
+        'Custom\\Core\\Skd\\AccessSKDTable'                              => 'lib/skd/AccessSKDTable.php',
+        'Custom\\Core\\Skd\\AccessSKDUfDateTable'                        => 'lib/skd/AccessSKDUfDateTable.php',
+        'Custom\\Core\\Skd\\AccessSKDUfTicketsTypeTable'                 => 'lib/skd/AccessSKDUfTicketsTypeTable.php',
+        'Custom\\Core\\Skd\\HistorySKDTable'                             => 'lib/skd/HistorySKDTable.php',
+        'Custom\\Core\\Skd\\LoggerSkdTable'                              => 'lib/skd/loggerSKDTable.php',
+        'Custom\\Core\\Users\\FinanceListTable'                          => 'lib/users/FinanceListTable.php',
+        'Custom\\Core\\Users\\SubscriptionsTable'                        => 'lib/users/SubscriptionsTable.php',
+        'Custom\\Core\\Images'                                           => 'lib/Images.php',
+        'Custom\\Core\\RabbitMQPublisher'                                => 'lib/RabbitMQPublisher.php',
+        'Custom\\Core\\Orders\\InvoiceGenerator'                         => 'lib/Orders/InvoiceGenerator.php',
+        'Custom\\Core\\SimpleLogger'                                     => 'lib/SimpleLogger.php',
+        'Custom\\Core\\Analitics\\YaMetrikaTable'                        => 'lib/analitics/YaMetrikaTable.php',
+        'Custom\\Core\\Services\\OrdersPaymentCheckService'              => 'lib/Services/OrdersPaymentCheckService.php',
+
+        //'Local\Api\Controllers\V1\Skd' => '/local/api/controllers/v1/skd.php',
+    ]
+);
