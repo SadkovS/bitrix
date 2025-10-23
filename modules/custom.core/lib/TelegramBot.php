@@ -5,7 +5,7 @@ namespace Custom\Core;
 class TelegramBot {
 
     public const HOST = 'https://api.telegram.org/bot';
-    private const TOKEN = '7603263042:AAHAChw-cHgtj9AIKzpRe7XbNWExS8kNWeE';
+    private const TOKEN = '*************************';
     private const CHAT_ID = -4729906112;
 
     public static function sendMessage( string $text): bool
@@ -20,4 +20,5 @@ class TelegramBot {
         );
         return $response['ok'] ?? false;
     }
+
 }
